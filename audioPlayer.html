@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="audioPlayer.css">
+    <script src="audioPlayer.js"defer></script> 
+    <title>Music player</title>
+</head>
+<body>
+    <div id="titleDiv">
+        <h3>Music Player</h3>
+    </div>
+    <div id = "mainDiv">
+        <div id="musicDiv">
+        <audio controls id = "aud">
+            <source src="audios/test_audio_one.mp3"  type="audio/mp3"></source>
+        </audio>
+    </div>
+    <div id="buttons">
+        <input id= "btnPlay" type="button" value="Play">
+        <input id= "btnPause" type="button" value="Pause">
+        <input id= "btnShuffle" type="button" value="Shuffle">
+        <input id= "btnRepeat" type="button" value="Repeat">
+    </div>
+    <div id="music">
+        <div class="audio_one audio"  >
+           
+            <span>Track one</span>
+        </div> 
+        <div class="audio_two audio">
+            <span> Track Two</span>
+        </div>
+        <div class="audio_three audio">
+            <span> Track Three</span>
+        </div>
+    </div>
+</body>
+</html>

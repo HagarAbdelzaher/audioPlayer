@@ -1,0 +1,70 @@
+
+body{
+    background-color: bisque;
+}
+#titleDiv{
+    text-align: center;
+    margin:auto;
+    width:320px;
+    padding: 7px;
+    margin-top: 100px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color:darksalmon;
+} 
+#music{
+    text-align: center;
+    margin:auto;
+    width:300px;
+    padding: 7px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color:rgba(220, 20, 60, 0.945);
+    display: block;
+
+}
+.audio > span{
+ display: block;
+ height:30px;
+ width:230px;
+background-color:darksalmon;
+text-align: center;
+margin-top: 20px;
+margin-left:34px;
+border-radius: 5px;
+padding:3px;
+font-weight: lighter;
+}
+
+h3{
+    margin-top: 3px;
+    font-size: larger;
+    color:crimson;
+    font-weight: bold;
+    font-size: 30px;
+}
+#mainDiv{
+    text-align: center;
+    background-color: bisque;
+    display: block;
+    margin:auto;
+    width:320px;
+    padding: 50px;
+    margin-top: 50px;
+    height: 320px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    }
+    #buttons{
+        margin: 10px;
+    }
+    input[type=button]{
+        width:70px;
+        height: 30px;
+        padding: 3px;
+        border-radius: 10px;
+        background-color:darksalmon;
+        border-color: darksalmon;
+    }
